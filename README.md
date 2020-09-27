@@ -1,1 +1,1 @@
-# AnnapurnaMeals
+You've to create a responsive website using HTML, CSS and you can also use Bootstrap. Try to use <Iframe> (optional) and it should be responsive to different screen size. Also, Try to deploy on GitHub pages. In Google Form, Submit with GitHub repository link, screenshot (5), and deployed link. Submit your Assignment-2 of Web Development in below form
