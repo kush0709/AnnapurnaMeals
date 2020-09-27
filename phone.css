@@ -1,0 +1,70 @@
+
+#navbar{
+    flex-direction: column;
+    height: 135px;
+}
+
+#navbar ul li a{
+    font-size: 15px;
+    padding: 0px 2px;
+    padding-bottom: 4px;
+}
+
+#home{
+    height: 750px;
+    padding: 3px 14px;
+}
+
+#home::before{
+    height: 780px;
+    
+}
+
+#home p{
+    font-size: 13px;
+    padding: 3px 100px;
+}
+
+#services{
+    flex-direction: column;
+}
+
+#services .box img{
+    padding: 14px;
+    margin: 2px 0px;
+    margin-bottom: 20px;
+}
+
+#clients{
+    overflow: hidden;
+    flex-wrap: wrap;
+}
+
+#clients img{
+    width: 66px;
+    padding: 6px;
+    height: auto;
+
+}
+
+#contact-box{
+    width: 80%;
+}
+
+.ourteam_wrapper .team_members img{
+    width: 100px;
+    height: 150px;
+    padding: 15px 15px;
+    top: auto;
+    bottom: auto;
+    place-content: center;
+
+}
+.h-primary{
+    font-size: 40px;
+}
+
+.btn{
+    font-size: 13px;
+    padding: 4px 8px;
+}

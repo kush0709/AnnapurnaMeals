@@ -1,0 +1,301 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    outline: none;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Indie Flower', cursive;
+}
+
+#navbar{
+    width: 100%;
+	height: 65px;
+    display: flex;
+    align-items: center;
+    font-family: 'Indie Flower', cursive;
+    position: relative;
+    top: 0px;
+    justify-content: space-around;
+}
+
+h1.title{
+	margin-bottom: 20px;
+	font-family: 'Permanent Marker';
+    color: rgb(22, 219, 48); 
+	text-transform: uppercase;
+	font-size: 38px;
+	word-spacing: 15px;
+    letter-spacing: 5px;
+    text-align: center;
+}
+
+#navbar::before{
+    content: "";
+    background-color: rgb(0, 0, 0);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.7;
+}
+
+#logo{
+    margin: 2px 34px;
+    
+}
+
+#logo img{
+    height: 50px;
+    margin: 3px 4px;
+}
+
+#navbar ul{
+    display: flex;
+    font-family: 'Indie Flower', cursive;
+}
+
+#navbar ul li{
+    list-style: none;
+    font-size: 1.3rem;
+    margin: 0 10px;
+}
+
+#navbar ul li a{
+    color: white;
+    display: block;
+    padding: 3px 10px;
+    border-radius: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+#navbar ul li a:hover{
+    color: black;
+    background-color: white;
+}
+
+#home{
+    display: flex;
+    flex-direction: column;
+    padding: 3px 200px;
+    height: 550px;
+    justify-content: center;
+    align-items: center;
+}
+
+#home::before{
+    content: "";
+    position: absolute;
+    background-size: cover;
+    background: url(background/bg2.jpg) no-repeat center center/cover;
+    top: 0px;
+    left: 0px;
+    display: flex;
+	justify-content: center;
+    height: 620px;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.89;
+}
+#home h1{
+    color: rgba(12, 0, 83, 0.842);
+    text-align: center;
+    font-family: 'Permanent Marker';
+    font-size: 2.4rem;
+}
+
+#home p{
+    color: rgba(207, 23, 23, 0.781);
+    text-align: center;
+    font-size: 2 rem; 
+    font-family: 'Indie Flower', cursive;  
+}
+
+#services{
+    margin: 34px;
+    display: flex;
+}
+
+#services .box{
+    border: 2px solid brown ;
+    padding: 34px;
+    margin: 2px 55px;
+    border-radius: 28px;
+    background-color: rgba(245, 171, 119, 0.377);
+    margin-bottom: 20px;
+}
+
+#services .box img{
+    height: 130px;
+    margin: auto;
+    display: block;
+}
+
+#services .box p{
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+#client-section{
+    position: relative;
+}
+
+#client-section::before{
+    content: "";
+    position: absolute;
+    background: url(background/bg3.jpg) no-repeat center center/cover;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.70;
+}
+
+#clients{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#client-item{
+    padding: 150px;
+
+}
+
+#clients img{
+    height: 150px;
+
+}
+
+
+#contact{
+    position: relative;
+}
+
+#contact::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.34;
+    background: url(logo/contact.jpg) no-repeat center center/cover;
+}
+#contact-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 34px;
+
+}
+#contact-box input,
+#contact-box textarea{
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 9px;
+    font-size: 1.1rem;
+}
+
+#contact-box form{
+    width: 40%;
+}
+
+#contact-box form{
+    font-size: 1.3rem;
+    font-family: 'Indie Flower', cursive;
+}
+
+
+.ourteam{
+    background: #f7c5c58e;
+    background: url(background/bg4.jpg) no-repeat center center/cover;
+}
+
+.ourteam_wrapper{
+	display: flex;
+    flex-direction: column;
+}
+
+.ourteam_wrapper .team{
+	display: flex;
+    justify-content: space-between;
+    
+}
+
+.ourteam_wrapper .team-1.team{
+    margin-bottom: 16px;
+    
+}
+
+.ourteam_wrapper .team_members{
+	width: 30%;
+	height: 40%;
+	cursor: pointer;
+	overflow: hidden;
+    position: relative;
+    padding: 29px 42px;
+    margin: 21px 36px;
+}
+
+.ourteam_wrapper .team_members img{
+	display: block;
+    transition: all 0.5s ease;
+    height: 100%;
+    width: 100%;
+    padding: 3px;
+    margin: 2px 2px;
+}
+
+.ourteam_wrapper .team_members:hover img{
+    transform: scale(1.1);
+}
+
+
+footer{
+    background: black;
+    color: white;
+    padding: 9px 20px;
+
+}
+
+.h-primary{
+    font-size: 2.8rem;
+    padding: 4px;   
+    font-family: 'Permanent Marker';
+    color: rgb(22, 219, 48);    
+}
+
+.h-secondary{
+    font-size: 2.2rem;
+    padding: 12px;
+    font-family: 'Indie Flower', cursive;       
+}
+
+.i-primary{
+    font-size: 1.7rem;
+    padding: 10px;
+    color: rgb(3, 86, 92);  
+    font-family: 'Indie Flower', cursive;
+}
+.btn{
+    padding: 6px 20px;
+    border: 2px solid whitesmoke;
+    background-color: tomato;
+    color: thistle;
+    margin: 17px;
+    font-size: 1.5rem;
+    border-radius: 11px;
+    cursor: pointer;
+    display: block;
+    margin: 25px auto 0;
+    text-align: center;
+}
+.center{
+    text-align: center;
+}
+
+
+
